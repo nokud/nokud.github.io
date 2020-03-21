@@ -1,0 +1,56 @@
+html{
+    height: 100%;
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body{
+/*    background: linear-gradient(to left, #C2AD90, #FAE8CB);*/
+/*
+    background: url(https://www.business.com/images/content/5ca/3d43d5a215e8a458b7a69/0-800-);
+    background-size: cover;
+    background-position: center;
+*/
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar-default .navbar-brand{
+    color:black; 
+}
+
+.navbar-default{
+    background: linear-gradient(to left, #DAC7AC, #FFF9E6); 
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background: #FFF9E6;
+}
+
+.center{
+    text-align: center;
+    padding-top: 15%;
+}
+h2{
+    font-size:100px;
+    color: #B86360;
+     -webkit-text-fill-color: #B86360;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.btn-success{
+    color:whitesmoke;
+    background: #00A86B;
+    border-color: #008656;
+    font-size: 15px;
+}
+.btn{
+    font-weight: 300;
+}
+}
